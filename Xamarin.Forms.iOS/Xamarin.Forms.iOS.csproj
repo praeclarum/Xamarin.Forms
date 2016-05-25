@@ -40,11 +40,1079 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Xamarin.Forms.Platform\" />
+    <Folder Include="Xamarin.Forms.Core\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Xamarin.Forms.Platform\Xamarin.Forms.Platform.cs">
       <Link>Xamarin.Forms.Platform\Xamarin.Forms.Platform.cs</Link>
     </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\AbsoluteLayout.cs">
+      <Link>Xamarin.Forms.Core\AbsoluteLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\AbsoluteLayoutFlags.cs">
+      <Link>Xamarin.Forms.Core\AbsoluteLayoutFlags.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ActionSheetArguments.cs">
+      <Link>Xamarin.Forms.Core\ActionSheetArguments.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ActivityIndicator.cs">
+      <Link>Xamarin.Forms.Core\ActivityIndicator.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\AlertArguments.cs">
+      <Link>Xamarin.Forms.Core\AlertArguments.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\AnimatableKey.cs">
+      <Link>Xamarin.Forms.Core\AnimatableKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Animation.cs">
+      <Link>Xamarin.Forms.Core\Animation.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\AnimationExtensions.cs">
+      <Link>Xamarin.Forms.Core\AnimationExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\AppLinkEntry.cs">
+      <Link>Xamarin.Forms.Core\AppLinkEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Application.cs">
+      <Link>Xamarin.Forms.Core\Application.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Aspect.cs">
+      <Link>Xamarin.Forms.Core\Aspect.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BackButtonPressedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\BackButtonPressedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BaseMenuItem.cs">
+      <Link>Xamarin.Forms.Core\BaseMenuItem.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindableObject.cs">
+      <Link>Xamarin.Forms.Core\BindableObject.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindableObjectExtensions.cs">
+      <Link>Xamarin.Forms.Core\BindableObjectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindableProperty.cs">
+      <Link>Xamarin.Forms.Core\BindableProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindablePropertyConverter.cs">
+      <Link>Xamarin.Forms.Core\BindablePropertyConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindablePropertyKey.cs">
+      <Link>Xamarin.Forms.Core\BindablePropertyKey.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Binding.cs">
+      <Link>Xamarin.Forms.Core\Binding.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindingBase.cs">
+      <Link>Xamarin.Forms.Core\BindingBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindingBaseExtensions.cs">
+      <Link>Xamarin.Forms.Core\BindingBaseExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindingExpression.cs">
+      <Link>Xamarin.Forms.Core\BindingExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindingMode.cs">
+      <Link>Xamarin.Forms.Core\BindingMode.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BindingTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\BindingTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BoundsConstraint.cs">
+      <Link>Xamarin.Forms.Core\BoundsConstraint.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BoundsTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\BoundsTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\BoxView.cs">
+      <Link>Xamarin.Forms.Core\BoxView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Button.cs">
+      <Link>Xamarin.Forms.Core\Button.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\CarouselPage.cs">
+      <Link>Xamarin.Forms.Core\CarouselPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\CastingEnumerator.cs">
+      <Link>Xamarin.Forms.Core\CastingEnumerator.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ChatKeyboard.cs">
+      <Link>Xamarin.Forms.Core\ChatKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ChildCollectionChangedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ChildCollectionChangedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\CollectionSynchronizationCallback.cs">
+      <Link>Xamarin.Forms.Core\CollectionSynchronizationCallback.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\CollectionSynchronizationContext.cs">
+      <Link>Xamarin.Forms.Core\CollectionSynchronizationContext.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Color.cs">
+      <Link>Xamarin.Forms.Core\Color.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ColorTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\ColorTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ColumnDefinition.cs">
+      <Link>Xamarin.Forms.Core\ColumnDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ColumnDefinitionCollection.cs">
+      <Link>Xamarin.Forms.Core\ColumnDefinitionCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Command.cs">
+      <Link>Xamarin.Forms.Core\Command.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ConcurrentDictionary.cs">
+      <Link>Xamarin.Forms.Core\ConcurrentDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Constraint.cs">
+      <Link>Xamarin.Forms.Core\Constraint.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ConstraintExpression.cs">
+      <Link>Xamarin.Forms.Core\ConstraintExpression.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ConstraintType.cs">
+      <Link>Xamarin.Forms.Core\ConstraintType.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ConstraintTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\ConstraintTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ContentPage.cs">
+      <Link>Xamarin.Forms.Core\ContentPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ContentPresenter.cs">
+      <Link>Xamarin.Forms.Core\ContentPresenter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ContentPropertyAttribute.cs">
+      <Link>Xamarin.Forms.Core\ContentPropertyAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ContentView.cs">
+      <Link>Xamarin.Forms.Core\ContentView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ControlTemplate.cs">
+      <Link>Xamarin.Forms.Core\ControlTemplate.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\CustomKeyboard.cs">
+      <Link>Xamarin.Forms.Core\CustomKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DataTemplate.cs">
+      <Link>Xamarin.Forms.Core\DataTemplate.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DataTemplateExtensions.cs">
+      <Link>Xamarin.Forms.Core\DataTemplateExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DataTemplateSelector.cs">
+      <Link>Xamarin.Forms.Core\DataTemplateSelector.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DateChangedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\DateChangedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DatePicker.cs">
+      <Link>Xamarin.Forms.Core\DatePicker.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DefinitionCollection.cs">
+      <Link>Xamarin.Forms.Core\DefinitionCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DelegateLogListener.cs">
+      <Link>Xamarin.Forms.Core\DelegateLogListener.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DependencyAttribute.cs">
+      <Link>Xamarin.Forms.Core\DependencyAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DependencyFetchTarget.cs">
+      <Link>Xamarin.Forms.Core\DependencyFetchTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DependencyService.cs">
+      <Link>Xamarin.Forms.Core\DependencyService.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Device.cs">
+      <Link>Xamarin.Forms.Core\Device.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DeviceInfo.cs">
+      <Link>Xamarin.Forms.Core\DeviceInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DeviceOrientation.cs">
+      <Link>Xamarin.Forms.Core\DeviceOrientation.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\DeviceOrientationExtensions.cs">
+      <Link>Xamarin.Forms.Core\DeviceOrientationExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Easing.cs">
+      <Link>Xamarin.Forms.Core\Easing.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Editor.cs">
+      <Link>Xamarin.Forms.Core\Editor.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Effect.cs">
+      <Link>Xamarin.Forms.Core\Effect.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Element.cs">
+      <Link>Xamarin.Forms.Core\Element.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ElementCollection.cs">
+      <Link>Xamarin.Forms.Core\ElementCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ElementEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ElementEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ElementTemplate.cs">
+      <Link>Xamarin.Forms.Core\ElementTemplate.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\EmailKeyboard.cs">
+      <Link>Xamarin.Forms.Core\EmailKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Entry.cs">
+      <Link>Xamarin.Forms.Core\Entry.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\EnumerableExtensions.cs">
+      <Link>Xamarin.Forms.Core\EnumerableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\EventArg.cs">
+      <Link>Xamarin.Forms.Core\EventArg.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ExportEffectAttribute.cs">
+      <Link>Xamarin.Forms.Core\ExportEffectAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ExpressionSearch.cs">
+      <Link>Xamarin.Forms.Core\ExpressionSearch.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FileAccess.cs">
+      <Link>Xamarin.Forms.Core\FileAccess.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FileImageSource.cs">
+      <Link>Xamarin.Forms.Core\FileImageSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FileImageSourceConverter.cs">
+      <Link>Xamarin.Forms.Core\FileImageSourceConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FileMode.cs">
+      <Link>Xamarin.Forms.Core\FileMode.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FileShare.cs">
+      <Link>Xamarin.Forms.Core\FileShare.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FocusEventArgs.cs">
+      <Link>Xamarin.Forms.Core\FocusEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Font.cs">
+      <Link>Xamarin.Forms.Core\Font.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FontAttributes.cs">
+      <Link>Xamarin.Forms.Core\FontAttributes.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FontSizeConverter.cs">
+      <Link>Xamarin.Forms.Core\FontSizeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FontTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\FontTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\FormattedString.cs">
+      <Link>Xamarin.Forms.Core\FormattedString.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Frame.cs">
+      <Link>Xamarin.Forms.Core\Frame.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\GestureRecognizer.cs">
+      <Link>Xamarin.Forms.Core\GestureRecognizer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\GestureState.cs">
+      <Link>Xamarin.Forms.Core\GestureState.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\GestureStatus.cs">
+      <Link>Xamarin.Forms.Core\GestureStatus.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Grid.cs">
+      <Link>Xamarin.Forms.Core\Grid.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\GridCalc.cs">
+      <Link>Xamarin.Forms.Core\GridCalc.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\GridLength.cs">
+      <Link>Xamarin.Forms.Core\GridLength.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\GridLengthTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\GridLengthTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\GridUnitType.cs">
+      <Link>Xamarin.Forms.Core\GridUnitType.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\HandlerAttribute.cs">
+      <Link>Xamarin.Forms.Core\HandlerAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\HtmlWebViewSource.cs">
+      <Link>Xamarin.Forms.Core\HtmlWebViewSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IAnimatable.cs">
+      <Link>Xamarin.Forms.Core\IAnimatable.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IAppIndexingProvider.cs">
+      <Link>Xamarin.Forms.Core\IAppIndexingProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IAppLinkEntry.cs">
+      <Link>Xamarin.Forms.Core\IAppLinkEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IAppLinks.cs">
+      <Link>Xamarin.Forms.Core\IAppLinks.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IApplicationController.cs">
+      <Link>Xamarin.Forms.Core\IApplicationController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IButtonController.cs">
+      <Link>Xamarin.Forms.Core\IButtonController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IControlTemplated.cs">
+      <Link>Xamarin.Forms.Core\IControlTemplated.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IDefinition.cs">
+      <Link>Xamarin.Forms.Core\IDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IDeserializer.cs">
+      <Link>Xamarin.Forms.Core\IDeserializer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IEffectControlProvider.cs">
+      <Link>Xamarin.Forms.Core\IEffectControlProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IElement.cs">
+      <Link>Xamarin.Forms.Core\IElement.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IElementController.cs">
+      <Link>Xamarin.Forms.Core\IElementController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IEntryController.cs">
+      <Link>Xamarin.Forms.Core\IEntryController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IExpressionSearch.cs">
+      <Link>Xamarin.Forms.Core\IExpressionSearch.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IExtendedTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\IExtendedTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IFontElement.cs">
+      <Link>Xamarin.Forms.Core\IFontElement.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IGestureRecognizer.cs">
+      <Link>Xamarin.Forms.Core\IGestureRecognizer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IImageController.cs">
+      <Link>Xamarin.Forms.Core\IImageController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IIsolatedStorageFile.cs">
+      <Link>Xamarin.Forms.Core\IIsolatedStorageFile.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IItemViewController.cs">
+      <Link>Xamarin.Forms.Core\IItemViewController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IItemsView.cs">
+      <Link>Xamarin.Forms.Core\IItemsView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ILayout.cs">
+      <Link>Xamarin.Forms.Core\ILayout.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ILayoutController.cs">
+      <Link>Xamarin.Forms.Core\ILayoutController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IListViewController.cs">
+      <Link>Xamarin.Forms.Core\IListViewController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IMarkupExtension.cs">
+      <Link>Xamarin.Forms.Core\IMarkupExtension.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IMasterDetailPageController.cs">
+      <Link>Xamarin.Forms.Core\IMasterDetailPageController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\INavigation.cs">
+      <Link>Xamarin.Forms.Core\INavigation.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\INavigationPageController.cs">
+      <Link>Xamarin.Forms.Core\INavigationPageController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IOpenGlViewController.cs">
+      <Link>Xamarin.Forms.Core\IOpenGlViewController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IPageContainer.cs">
+      <Link>Xamarin.Forms.Core\IPageContainer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IPanGestureController.cs">
+      <Link>Xamarin.Forms.Core\IPanGestureController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IPinchGestureController.cs">
+      <Link>Xamarin.Forms.Core\IPinchGestureController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IPlatform.cs">
+      <Link>Xamarin.Forms.Core\IPlatform.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IPlatformServices.cs">
+      <Link>Xamarin.Forms.Core\IPlatformServices.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IProvideParentValues.cs">
+      <Link>Xamarin.Forms.Core\IProvideParentValues.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IProvideValueTarget.cs">
+      <Link>Xamarin.Forms.Core\IProvideValueTarget.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IRegisterable.cs">
+      <Link>Xamarin.Forms.Core\IRegisterable.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IResourceDictionary.cs">
+      <Link>Xamarin.Forms.Core\IResourceDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IResourcesProvider.cs">
+      <Link>Xamarin.Forms.Core\IResourcesProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IRootObjectProvider.cs">
+      <Link>Xamarin.Forms.Core\IRootObjectProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IScrollViewController.cs">
+      <Link>Xamarin.Forms.Core\IScrollViewController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ISearchBarController.cs">
+      <Link>Xamarin.Forms.Core\ISearchBarController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IStreamImageSource.cs">
+      <Link>Xamarin.Forms.Core\IStreamImageSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IStyle.cs">
+      <Link>Xamarin.Forms.Core\IStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ISystemResourcesProvider.cs">
+      <Link>Xamarin.Forms.Core\ISystemResourcesProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ITimer.cs">
+      <Link>Xamarin.Forms.Core\ITimer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IValueConverter.cs">
+      <Link>Xamarin.Forms.Core\IValueConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IValueConverterProvider.cs">
+      <Link>Xamarin.Forms.Core\IValueConverterProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IValueProvider.cs">
+      <Link>Xamarin.Forms.Core\IValueProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IViewContainer.cs">
+      <Link>Xamarin.Forms.Core\IViewContainer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IViewController.cs">
+      <Link>Xamarin.Forms.Core\IViewController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IVisualElementController.cs">
+      <Link>Xamarin.Forms.Core\IVisualElementController.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IWebViewDelegate.cs">
+      <Link>Xamarin.Forms.Core\IWebViewDelegate.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IXamlTypeResolver.cs">
+      <Link>Xamarin.Forms.Core\IXamlTypeResolver.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\IXmlLineInfoProvider.cs">
+      <Link>Xamarin.Forms.Core\IXmlLineInfoProvider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Image.cs">
+      <Link>Xamarin.Forms.Core\Image.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ImageSource.cs">
+      <Link>Xamarin.Forms.Core\ImageSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ImageSourceConverter.cs">
+      <Link>Xamarin.Forms.Core\ImageSourceConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\InputView.cs">
+      <Link>Xamarin.Forms.Core\InputView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\InvalidNavigationException.cs">
+      <Link>Xamarin.Forms.Core\InvalidNavigationException.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\InvalidationEventArgs.cs">
+      <Link>Xamarin.Forms.Core\InvalidationEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ItemTappedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ItemTappedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ItemVisibilityEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ItemVisibilityEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ItemsView.cs">
+      <Link>Xamarin.Forms.Core\ItemsView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Keyboard.cs">
+      <Link>Xamarin.Forms.Core\Keyboard.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\KeyboardFlags.cs">
+      <Link>Xamarin.Forms.Core\KeyboardFlags.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\KeyboardTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\KeyboardTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Label.cs">
+      <Link>Xamarin.Forms.Core\Label.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Layout.cs">
+      <Link>Xamarin.Forms.Core\Layout.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LayoutAlignment.cs">
+      <Link>Xamarin.Forms.Core\LayoutAlignment.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LayoutAlignmentExtensions.cs">
+      <Link>Xamarin.Forms.Core\LayoutAlignmentExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LayoutConstraint.cs">
+      <Link>Xamarin.Forms.Core\LayoutConstraint.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LayoutExpandFlag.cs">
+      <Link>Xamarin.Forms.Core\LayoutExpandFlag.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LayoutOptions.cs">
+      <Link>Xamarin.Forms.Core\LayoutOptions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LayoutOptionsConverter.cs">
+      <Link>Xamarin.Forms.Core\LayoutOptionsConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LineBreakMode.cs">
+      <Link>Xamarin.Forms.Core\LineBreakMode.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ListProxy.cs">
+      <Link>Xamarin.Forms.Core\ListProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ListStringTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\ListStringTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ListView.cs">
+      <Link>Xamarin.Forms.Core\ListView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ListViewCachingStrategy.cs">
+      <Link>Xamarin.Forms.Core\ListViewCachingStrategy.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LockingSemaphore.cs">
+      <Link>Xamarin.Forms.Core\LockingSemaphore.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Log.cs">
+      <Link>Xamarin.Forms.Core\Log.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\LogListener.cs">
+      <Link>Xamarin.Forms.Core\LogListener.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\MasterBehavior.cs">
+      <Link>Xamarin.Forms.Core\MasterBehavior.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\MasterDetailPage.cs">
+      <Link>Xamarin.Forms.Core\MasterDetailPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\MeasureFlags.cs">
+      <Link>Xamarin.Forms.Core\MeasureFlags.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\MenuItem.cs">
+      <Link>Xamarin.Forms.Core\MenuItem.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\MergedStyle.cs">
+      <Link>Xamarin.Forms.Core\MergedStyle.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\MessagingCenter.cs">
+      <Link>Xamarin.Forms.Core\MessagingCenter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ModalEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ModalEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ModalPoppedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ModalPoppedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ModalPoppingEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ModalPoppingEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ModalPushedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ModalPushedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ModalPushingEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ModalPushingEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\MultiPage.cs">
+      <Link>Xamarin.Forms.Core\MultiPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NameScopeExtensions.cs">
+      <Link>Xamarin.Forms.Core\NameScopeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NamedSize.cs">
+      <Link>Xamarin.Forms.Core\NamedSize.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NavigationEventArgs.cs">
+      <Link>Xamarin.Forms.Core\NavigationEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NavigationMenu.cs">
+      <Link>Xamarin.Forms.Core\NavigationMenu.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NavigationModel.cs">
+      <Link>Xamarin.Forms.Core\NavigationModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NavigationPage.cs">
+      <Link>Xamarin.Forms.Core\NavigationPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NavigationProxy.cs">
+      <Link>Xamarin.Forms.Core\NavigationProxy.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NotifyCollectionChangedEventArgsEx.cs">
+      <Link>Xamarin.Forms.Core\NotifyCollectionChangedEventArgsEx.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NotifyCollectionChangedEventArgsExtensions.cs">
+      <Link>Xamarin.Forms.Core\NotifyCollectionChangedEventArgsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NullEffect.cs">
+      <Link>Xamarin.Forms.Core\NullEffect.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NumericExtensions.cs">
+      <Link>Xamarin.Forms.Core\NumericExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\NumericKeyboard.cs">
+      <Link>Xamarin.Forms.Core\NumericKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ObservableList.cs">
+      <Link>Xamarin.Forms.Core\ObservableList.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ObservableWrapper.cs">
+      <Link>Xamarin.Forms.Core\ObservableWrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\OnIdiom.cs">
+      <Link>Xamarin.Forms.Core\OnIdiom.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\OnPlatform.cs">
+      <Link>Xamarin.Forms.Core\OnPlatform.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\OpenGLView.cs">
+      <Link>Xamarin.Forms.Core\OpenGLView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\OrderedDictionary.cs">
+      <Link>Xamarin.Forms.Core\OrderedDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Page.cs">
+      <Link>Xamarin.Forms.Core\Page.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\PanGestureRecognizer.cs">
+      <Link>Xamarin.Forms.Core\PanGestureRecognizer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\PanUpdatedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\PanUpdatedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ParameterAttribute.cs">
+      <Link>Xamarin.Forms.Core\ParameterAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Performance.cs">
+      <Link>Xamarin.Forms.Core\Performance.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Picker.cs">
+      <Link>Xamarin.Forms.Core\Picker.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\PinchGestureRecognizer.cs">
+      <Link>Xamarin.Forms.Core\PinchGestureRecognizer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\PinchGestureUpdatedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\PinchGestureUpdatedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\PlatformEffect.cs">
+      <Link>Xamarin.Forms.Core\PlatformEffect.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Point.cs">
+      <Link>Xamarin.Forms.Core\Point.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\PointTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\PointTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ProgressBar.cs">
+      <Link>Xamarin.Forms.Core\ProgressBar.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\PropertyChangingEventArgs.cs">
+      <Link>Xamarin.Forms.Core\PropertyChangingEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\PropertyChangingEventHandler.cs">
+      <Link>Xamarin.Forms.Core\PropertyChangingEventHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ReadOnlyCastingList.cs">
+      <Link>Xamarin.Forms.Core\ReadOnlyCastingList.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ReadOnlyListAdapter.cs">
+      <Link>Xamarin.Forms.Core\ReadOnlyListAdapter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Rectangle.cs">
+      <Link>Xamarin.Forms.Core\Rectangle.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\RectangleTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\RectangleTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ReflectionExtensions.cs">
+      <Link>Xamarin.Forms.Core\ReflectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Registrar.cs">
+      <Link>Xamarin.Forms.Core\Registrar.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\RelativeLayout.cs">
+      <Link>Xamarin.Forms.Core\RelativeLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\RenderWithAttribute.cs">
+      <Link>Xamarin.Forms.Core\RenderWithAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ResolutionGroupNameAttribute.cs">
+      <Link>Xamarin.Forms.Core\ResolutionGroupNameAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ResourceDictionary.cs">
+      <Link>Xamarin.Forms.Core\ResourceDictionary.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ResourcesChangedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ResourcesChangedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ResourcesExtensions.cs">
+      <Link>Xamarin.Forms.Core\ResourcesExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\RoutingEffect.cs">
+      <Link>Xamarin.Forms.Core\RoutingEffect.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\RowDefinition.cs">
+      <Link>Xamarin.Forms.Core\RowDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\RowDefinitionCollection.cs">
+      <Link>Xamarin.Forms.Core\RowDefinitionCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ScrollOrientation.cs">
+      <Link>Xamarin.Forms.Core\ScrollOrientation.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ScrollToMode.cs">
+      <Link>Xamarin.Forms.Core\ScrollToMode.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ScrollToPosition.cs">
+      <Link>Xamarin.Forms.Core\ScrollToPosition.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ScrollToRequestedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ScrollToRequestedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ScrollView.cs">
+      <Link>Xamarin.Forms.Core\ScrollView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ScrolledEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ScrolledEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SearchBar.cs">
+      <Link>Xamarin.Forms.Core\SearchBar.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SelectedItemChangedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\SelectedItemChangedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SelectedPositionChangedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\SelectedPositionChangedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SeparatorMenuItem.cs">
+      <Link>Xamarin.Forms.Core\SeparatorMenuItem.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SeparatorVisibility.cs">
+      <Link>Xamarin.Forms.Core\SeparatorVisibility.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Setter.cs">
+      <Link>Xamarin.Forms.Core\Setter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SettersExtensions.cs">
+      <Link>Xamarin.Forms.Core\SettersExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Size.cs">
+      <Link>Xamarin.Forms.Core\Size.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SizeRequest.cs">
+      <Link>Xamarin.Forms.Core\SizeRequest.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Slider.cs">
+      <Link>Xamarin.Forms.Core\Slider.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Span.cs">
+      <Link>Xamarin.Forms.Core\Span.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SplitOrderedList.cs">
+      <Link>Xamarin.Forms.Core\SplitOrderedList.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\StackLayout.cs">
+      <Link>Xamarin.Forms.Core\StackLayout.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\StackOrientation.cs">
+      <Link>Xamarin.Forms.Core\StackOrientation.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Stepper.cs">
+      <Link>Xamarin.Forms.Core\Stepper.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\StreamImageSource.cs">
+      <Link>Xamarin.Forms.Core\StreamImageSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\StreamWrapper.cs">
+      <Link>Xamarin.Forms.Core\StreamWrapper.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Style.cs">
+      <Link>Xamarin.Forms.Core\Style.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Switch.cs">
+      <Link>Xamarin.Forms.Core\Switch.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\SynchronizedList.cs">
+      <Link>Xamarin.Forms.Core\SynchronizedList.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TabbedPage.cs">
+      <Link>Xamarin.Forms.Core\TabbedPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TableIntent.cs">
+      <Link>Xamarin.Forms.Core\TableIntent.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TableModel.cs">
+      <Link>Xamarin.Forms.Core\TableModel.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TableRoot.cs">
+      <Link>Xamarin.Forms.Core\TableRoot.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TableSection.cs">
+      <Link>Xamarin.Forms.Core\TableSection.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TableSectionBase.cs">
+      <Link>Xamarin.Forms.Core\TableSectionBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TableView.cs">
+      <Link>Xamarin.Forms.Core\TableView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TapGestureRecognizer.cs">
+      <Link>Xamarin.Forms.Core\TapGestureRecognizer.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TappedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\TappedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TargetIdiom.cs">
+      <Link>Xamarin.Forms.Core\TargetIdiom.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TargetPlatform.cs">
+      <Link>Xamarin.Forms.Core\TargetPlatform.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TelephoneKeyboard.cs">
+      <Link>Xamarin.Forms.Core\TelephoneKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TemplateBinding.cs">
+      <Link>Xamarin.Forms.Core\TemplateBinding.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TemplateExtensions.cs">
+      <Link>Xamarin.Forms.Core\TemplateExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TemplateUtilities.cs">
+      <Link>Xamarin.Forms.Core\TemplateUtilities.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TemplatedItemsList.cs">
+      <Link>Xamarin.Forms.Core\TemplatedItemsList.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TemplatedPage.cs">
+      <Link>Xamarin.Forms.Core\TemplatedPage.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TemplatedView.cs">
+      <Link>Xamarin.Forms.Core\TemplatedView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TextAlignment.cs">
+      <Link>Xamarin.Forms.Core\TextAlignment.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TextChangedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\TextChangedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TextKeyboard.cs">
+      <Link>Xamarin.Forms.Core\TextKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Thickness.cs">
+      <Link>Xamarin.Forms.Core\Thickness.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ThicknessTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\ThicknessTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TimePicker.cs">
+      <Link>Xamarin.Forms.Core\TimePicker.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ToggledEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ToggledEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ToolbarItem.cs">
+      <Link>Xamarin.Forms.Core\ToolbarItem.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ToolbarItemEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ToolbarItemEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ToolbarItemOrder.cs">
+      <Link>Xamarin.Forms.Core\ToolbarItemOrder.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ToolbarTracker.cs">
+      <Link>Xamarin.Forms.Core\ToolbarTracker.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TrackableCollection.cs">
+      <Link>Xamarin.Forms.Core\TrackableCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Tweener.cs">
+      <Link>Xamarin.Forms.Core\Tweener.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TypeConverter.cs">
+      <Link>Xamarin.Forms.Core\TypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TypeConverterAttribute.cs">
+      <Link>Xamarin.Forms.Core\TypeConverterAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\TypeTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\TypeTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\UnsolvableConstraintsException.cs">
+      <Link>Xamarin.Forms.Core\UnsolvableConstraintsException.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\UriImageSource.cs">
+      <Link>Xamarin.Forms.Core\UriImageSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\UriTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\UriTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\UrlKeyboard.cs">
+      <Link>Xamarin.Forms.Core\UrlKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\UrlWebViewSource.cs">
+      <Link>Xamarin.Forms.Core\UrlWebViewSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ValueChangedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\ValueChangedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Vec2.cs">
+      <Link>Xamarin.Forms.Core\Vec2.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\View.cs">
+      <Link>Xamarin.Forms.Core\View.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ViewExtensions.cs">
+      <Link>Xamarin.Forms.Core\ViewExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\ViewState.cs">
+      <Link>Xamarin.Forms.Core\ViewState.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\VisualElement.cs">
+      <Link>Xamarin.Forms.Core\VisualElement.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WeakReferenceExtensions.cs">
+      <Link>Xamarin.Forms.Core\WeakReferenceExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WebNavigatedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\WebNavigatedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WebNavigatingEventArgs.cs">
+      <Link>Xamarin.Forms.Core\WebNavigatingEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WebNavigationEvent.cs">
+      <Link>Xamarin.Forms.Core\WebNavigationEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WebNavigationEventArgs.cs">
+      <Link>Xamarin.Forms.Core\WebNavigationEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WebNavigationResult.cs">
+      <Link>Xamarin.Forms.Core\WebNavigationResult.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WebView.cs">
+      <Link>Xamarin.Forms.Core\WebView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WebViewSource.cs">
+      <Link>Xamarin.Forms.Core\WebViewSource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\WebViewSourceTypeConverter.cs">
+      <Link>Xamarin.Forms.Core\WebViewSourceTypeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\XamlParseException.cs">
+      <Link>Xamarin.Forms.Core\XamlParseException.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\XmlLineInfo.cs">
+      <Link>Xamarin.Forms.Core\XmlLineInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Cells\Cell.cs">
+      <Link>Xamarin.Forms.Core\Cells\Cell.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Cells\EntryCell.cs">
+      <Link>Xamarin.Forms.Core\Cells\EntryCell.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Cells\INativeElementView.cs">
+      <Link>Xamarin.Forms.Core\Cells\INativeElementView.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Cells\ImageCell.cs">
+      <Link>Xamarin.Forms.Core\Cells\ImageCell.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Cells\SwitchCell.cs">
+      <Link>Xamarin.Forms.Core\Cells\SwitchCell.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Cells\TextCell.cs">
+      <Link>Xamarin.Forms.Core\Cells\TextCell.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Cells\ViewCell.cs">
+      <Link>Xamarin.Forms.Core\Cells\ViewCell.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\AttachedCollection.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\AttachedCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\Behavior.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\Behavior.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\BindingCondition.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\BindingCondition.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\Condition.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\Condition.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\DataTrigger.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\DataTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\EventTrigger.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\EventTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\IAttachedObject.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\IAttachedObject.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\MultiCondition.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\MultiCondition.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\MultiTrigger.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\MultiTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\PropertyCondition.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\PropertyCondition.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\Trigger.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\Trigger.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\TriggerAction.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\TriggerAction.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Interactivity\TriggerBase.cs">
+      <Link>Xamarin.Forms.Core\Interactivity\TriggerBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\DynamicResource.cs">
+      <Link>Xamarin.Forms.Core\Internals\DynamicResource.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\EvalRequested.cs">
+      <Link>Xamarin.Forms.Core\Internals\EvalRequested.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\IDataTemplate.cs">
+      <Link>Xamarin.Forms.Core\Internals\IDataTemplate.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\IDynamicResourceHandler.cs">
+      <Link>Xamarin.Forms.Core\Internals\IDynamicResourceHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\INameScope.cs">
+      <Link>Xamarin.Forms.Core\Internals\INameScope.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\InvalidationTrigger.cs">
+      <Link>Xamarin.Forms.Core\Internals\InvalidationTrigger.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\NameScope.cs">
+      <Link>Xamarin.Forms.Core\Internals\NameScope.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\NavigationRequestedEventArgs.cs">
+      <Link>Xamarin.Forms.Core\Internals\NavigationRequestedEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\PreserveAttribute.cs">
+      <Link>Xamarin.Forms.Core\Internals\PreserveAttribute.cs</Link>
+    </Compile>
+    <Compile Include="..\Xamarin.Forms.Core\Internals\Ticker.cs">
+      <Link>Xamarin.Forms.Core\Internals\Ticker.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Xamarin.Forms.Core\Xamarin.Forms.Core.csproj">
+      <Link>Xamarin.Forms.Core\Xamarin.Forms.Core.csproj</Link>
+    </None>
+    <None Include="..\Xamarin.Forms.Core\Xamarin.Forms.Core.nuspec">
+      <Link>Xamarin.Forms.Core\Xamarin.Forms.Core.nuspec</Link>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
