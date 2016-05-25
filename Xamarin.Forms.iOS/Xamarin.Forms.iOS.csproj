@@ -1449,14 +1449,11 @@
     <Compile Include="..\Xamarin.Forms.Platform.iOS\Resources\StringResources.Designer.cs">
       <Link>Xamarin.Forms.Platform.iOS\Resources\StringResources.Designer.cs</Link>
     </Compile>
+    <Compile Include="..\Xamarin.Forms.Platform.iOS\Properties\AssemblyInfo.cs">
+      <Link>Xamarin.Forms.Platform.iOS\Properties\AssemblyInfo.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Xamarin.Forms.Core\Xamarin.Forms.Core.csproj">
-      <Link>Xamarin.Forms.Core\Xamarin.Forms.Core.csproj</Link>
-    </None>
-    <None Include="..\Xamarin.Forms.Core\Xamarin.Forms.Core.nuspec">
-      <Link>Xamarin.Forms.Core\Xamarin.Forms.Core.nuspec</Link>
-    </None>
     <None Include="..\Xamarin.Forms.Platform.iOS\Resources\StringResources.ar.resx">
       <Link>Xamarin.Forms.Platform.iOS\Resources\StringResources.ar.resx</Link>
     </None>
